@@ -15,18 +15,18 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    /* Deep Surgical Blue #0A4B78 */
-    --primary: 204 85% 25%;
+    /* Deep Professional Medical Blue */
+    --primary: 217 91% 30%; /* #0747a6 */
     --primary-foreground: 210 40% 98%;
 
-    /* Medical Teal #20B2AA */
-    --secondary: 176 70% 41%;
-    --secondary-foreground: 0 0% 100%;
+    /* High-tech Cyan/Teal Accent */
+    --secondary: 189 94% 43%; /* #06b6d4 */
+    --secondary-foreground: 222.2 84% 4.9%;
 
-    --muted: 210 40% 96.1%;
+    --muted: 214.3 31.8% 91.4%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
+    --accent: 214.3 31.8% 91.4%;
     --accent-foreground: 222.2 84% 4.9%;
 
     --destructive: 0 84.2% 60.2%;
@@ -34,18 +34,18 @@
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 204 85% 25%;
+    --ring: 217 91% 30%;
 
     --radius: 0.75rem;
 
     --sidebar-background: 0 0% 100%;
     --sidebar-foreground: 222.2 84% 4.9%;
-    --sidebar-primary: 204 85% 25%;
+    --sidebar-primary: 217 91% 30%;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 210 40% 96.1%;
     --sidebar-accent-foreground: 222.2 84% 4.9%;
     --sidebar-border: 214.3 31.8% 91.4%;
-    --sidebar-ring: 204 85% 25%;
+    --sidebar-ring: 217 91% 30%;
   }
 
   body {

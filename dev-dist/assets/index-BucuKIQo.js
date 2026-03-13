@@ -28170,7 +28170,7 @@ function Index() {
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
 				"data-uid": "src/pages/Index.tsx:12:7",
 				"data-prohibitions": "[]",
-				className: "relative overflow-hidden bg-slate-50 py-20 lg:py-32",
+				className: "relative overflow-hidden bg-blue-50/50 py-20 lg:py-32",
 				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					"data-uid": "src/pages/Index.tsx:13:9",
 					"data-prohibitions": "[]",
@@ -28183,7 +28183,7 @@ function Index() {
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 								"data-uid": "src/pages/Index.tsx:15:13",
 								"data-prohibitions": "[]",
-								className: "inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold bg-primary/10 text-primary mb-4",
+								className: "inline-flex items-center rounded-full border border-primary/20 px-3 py-1 text-xs font-semibold bg-primary/10 text-primary mb-4 shadow-sm",
 								children: "Vagas Abertas - Turma 2026"
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h1", {
@@ -28204,7 +28204,7 @@ function Index() {
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 								"data-uid": "src/pages/Index.tsx:21:13",
 								"data-prohibitions": "[]",
-								className: "text-lg text-slate-600 max-w-lg leading-relaxed",
+								className: "text-lg text-slate-700 max-w-lg leading-relaxed",
 								children: "O programa educacional mais completo para cirurgiões. Teoria avançada, simuladores de última geração e mentoria com especialistas globais."
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
@@ -28215,7 +28215,7 @@ function Index() {
 									"data-uid": "src/pages/Index.tsx:26:15",
 									"data-prohibitions": "[]",
 									size: "lg",
-									className: "h-12 px-8 text-base shadow-lg hover:scale-105 transition-transform",
+									className: "h-12 px-8 text-base shadow-lg hover:shadow-xl hover:scale-105 transition-all bg-primary text-white",
 									onClick: () => document.getElementById("enroll")?.scrollIntoView({ behavior: "smooth" }),
 									children: "Inscreva-se Agora"
 								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button$1, {
@@ -28223,54 +28223,54 @@ function Index() {
 									"data-prohibitions": "[]",
 									size: "lg",
 									variant: "outline",
-									className: "h-12 px-8 text-base bg-white",
+									className: "h-12 px-8 text-base bg-white border-slate-200 hover:border-primary/30 hover:bg-primary/5 hover:text-primary transition-colors",
 									children: "Ver Currículo"
 								})]
 							})
 						]
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						"data-uid": "src/pages/Index.tsx:40:11",
+						"data-uid": "src/pages/Index.tsx:44:11",
 						"data-prohibitions": "[]",
 						className: "relative animate-fade-in",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-							"data-uid": "src/pages/Index.tsx:41:13",
+							"data-uid": "src/pages/Index.tsx:45:13",
 							"data-prohibitions": "[editContent]",
-							className: "absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent rounded-2xl transform rotate-3 scale-105"
+							className: "absolute inset-0 bg-gradient-to-tr from-primary/30 to-transparent rounded-2xl transform rotate-3 scale-105"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-							"data-uid": "src/pages/Index.tsx:42:13",
+							"data-uid": "src/pages/Index.tsx:46:13",
 							"data-prohibitions": "[editContent]",
 							src: "https://img.usecurling.com/p/800/600?q=robotic%20surgery&color=blue&dpr=2",
 							alt: "Cirurgia Robótica",
-							className: "rounded-2xl shadow-2xl relative z-10 w-full object-cover"
+							className: "rounded-2xl shadow-2xl relative z-10 w-full object-cover border border-white/20"
 						})]
 					})]
 				})
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
-				"data-uid": "src/pages/Index.tsx:52:7",
+				"data-uid": "src/pages/Index.tsx:56:7",
 				"data-prohibitions": "[editContent]",
 				className: "py-20 bg-white",
 				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					"data-uid": "src/pages/Index.tsx:53:9",
+					"data-uid": "src/pages/Index.tsx:57:9",
 					"data-prohibitions": "[editContent]",
 					className: "container mx-auto px-4",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						"data-uid": "src/pages/Index.tsx:54:11",
+						"data-uid": "src/pages/Index.tsx:58:11",
 						"data-prohibitions": "[]",
 						className: "text-center max-w-2xl mx-auto mb-16 animate-slide-up",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-							"data-uid": "src/pages/Index.tsx:55:13",
+							"data-uid": "src/pages/Index.tsx:59:13",
 							"data-prohibitions": "[]",
 							className: "text-3xl font-bold text-slate-900 mb-4",
 							children: "Por que escolher o RoboSurge?"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-							"data-uid": "src/pages/Index.tsx:58:13",
+							"data-uid": "src/pages/Index.tsx:62:13",
 							"data-prohibitions": "[]",
-							className: "text-slate-600",
+							className: "text-slate-700 text-lg",
 							children: "Nossa plataforma oferece uma imersão completa, unindo teoria on-demand com prática intensiva em simuladores físicos."
 						})]
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-						"data-uid": "src/pages/Index.tsx:63:11",
+						"data-uid": "src/pages/Index.tsx:67:11",
 						"data-prohibitions": "[editContent]",
 						className: "grid md:grid-cols-3 gap-8",
 						children: [
@@ -28290,34 +28290,34 @@ function Index() {
 								desc: "Receba reconhecimento com validade internacional ao concluir todas as etapas do programa."
 							}
 						].map((f, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Card, {
-							"data-uid": "src/pages/Index.tsx:81:15",
+							"data-uid": "src/pages/Index.tsx:85:15",
 							"data-prohibitions": "[editContent]",
-							className: "border-none shadow-md hover:shadow-lg transition-shadow bg-slate-50/50",
+							className: "border border-slate-100 shadow-md hover:shadow-xl hover:border-primary/20 transition-all duration-300 bg-white group",
 							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardContent, {
-								"data-uid": "src/pages/Index.tsx:85:17",
+								"data-uid": "src/pages/Index.tsx:89:17",
 								"data-prohibitions": "[editContent]",
 								className: "p-8 text-center flex flex-col items-center",
 								children: [
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-										"data-uid": "src/pages/Index.tsx:86:19",
+										"data-uid": "src/pages/Index.tsx:90:19",
 										"data-prohibitions": "[]",
-										className: "w-16 h-16 rounded-2xl bg-primary/10 text-primary flex items-center justify-center mb-6",
+										className: "w-16 h-16 rounded-2xl bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-primary group-hover:text-white transition-all duration-300",
 										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(f.icon, {
-											"data-uid": "src/pages/Index.tsx:87:21",
+											"data-uid": "src/pages/Index.tsx:91:21",
 											"data-prohibitions": "[editContent]",
 											className: "w-8 h-8"
 										})
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-										"data-uid": "src/pages/Index.tsx:89:19",
+										"data-uid": "src/pages/Index.tsx:93:19",
 										"data-prohibitions": "[editContent]",
-										className: "text-xl font-semibold mb-3",
+										className: "text-xl font-bold text-slate-900 mb-3",
 										children: f.title
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-										"data-uid": "src/pages/Index.tsx:90:19",
+										"data-uid": "src/pages/Index.tsx:94:19",
 										"data-prohibitions": "[editContent]",
-										className: "text-slate-600",
+										className: "text-slate-700 leading-relaxed",
 										children: f.desc
 									})
 								]
@@ -28327,158 +28327,175 @@ function Index() {
 				})
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
-				"data-uid": "src/pages/Index.tsx:99:7",
+				"data-uid": "src/pages/Index.tsx:103:7",
 				"data-prohibitions": "[editContent]",
 				id: "enroll",
 				className: "py-20 bg-slate-900 text-white relative overflow-hidden",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-					"data-uid": "src/pages/Index.tsx:100:9",
-					"data-prohibitions": "[editContent]",
-					className: "absolute inset-0 opacity-10 bg-[url('https://img.usecurling.com/p/1200/800?q=technology&color=black')] bg-cover mix-blend-overlay"
-				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					"data-uid": "src/pages/Index.tsx:101:9",
-					"data-prohibitions": "[editContent]",
-					className: "container mx-auto px-4 relative z-10 grid lg:grid-cols-2 gap-16 items-center",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						"data-uid": "src/pages/Index.tsx:102:11",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						"data-uid": "src/pages/Index.tsx:104:9",
 						"data-prohibitions": "[editContent]",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-							"data-uid": "src/pages/Index.tsx:103:13",
-							"data-prohibitions": "[]",
-							className: "text-3xl md:text-4xl font-bold mb-6",
-							children: "Garanta sua vaga na próxima turma"
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
-							"data-uid": "src/pages/Index.tsx:106:13",
+						className: "absolute inset-0 opacity-20 bg-[url('https://img.usecurling.com/p/1200/800?q=medical%20technology&color=black')] bg-cover mix-blend-overlay"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						"data-uid": "src/pages/Index.tsx:105:9",
+						"data-prohibitions": "[editContent]",
+						className: "absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-900/95 to-primary/90"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						"data-uid": "src/pages/Index.tsx:106:9",
+						"data-prohibitions": "[editContent]",
+						className: "container mx-auto px-4 relative z-10 grid lg:grid-cols-2 gap-16 items-center",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							"data-uid": "src/pages/Index.tsx:107:11",
 							"data-prohibitions": "[editContent]",
-							className: "space-y-4 mb-8",
-							children: [
-								"Acesso imediato à plataforma de estudos",
-								"Mentoria com cirurgiões renomados",
-								"100 horas de simulador inclusas"
-							].map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
-								"data-uid": "src/pages/Index.tsx:112:17",
-								"data-prohibitions": "[editContent]",
-								className: "flex items-center gap-3",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CircleCheck, {
-									"data-uid": "src/pages/Index.tsx:113:19",
-									"data-prohibitions": "[editContent]",
-									className: "text-secondary w-6 h-6 shrink-0"
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-									"data-uid": "src/pages/Index.tsx:114:19",
-									"data-prohibitions": "[editContent]",
-									className: "text-lg text-slate-300",
-									children: item
-								})]
-							}, i))
-						})]
-					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Card, {
-						"data-uid": "src/pages/Index.tsx:119:11",
-						"data-prohibitions": "[]",
-						className: "bg-white text-slate-900 shadow-2xl animate-slide-up",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardHeader, {
-							"data-uid": "src/pages/Index.tsx:120:13",
-							"data-prohibitions": "[]",
-							className: "pb-4",
-							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardTitle, {
-								"data-uid": "src/pages/Index.tsx:121:15",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+								"data-uid": "src/pages/Index.tsx:108:13",
 								"data-prohibitions": "[]",
-								className: "text-2xl font-bold text-center",
-								children: "Ficha de Inscrição"
-							})
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardContent, {
-							"data-uid": "src/pages/Index.tsx:123:13",
-							"data-prohibitions": "[]",
-							className: "space-y-4",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-									"data-uid": "src/pages/Index.tsx:124:15",
-									"data-prohibitions": "[]",
-									className: "space-y-2",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Label, {
-										"data-uid": "src/pages/Index.tsx:125:17",
+								className: "text-3xl md:text-4xl font-bold mb-6 text-white",
+								children: "Garanta sua vaga na próxima turma"
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
+								"data-uid": "src/pages/Index.tsx:111:13",
+								"data-prohibitions": "[editContent]",
+								className: "space-y-5 mb-8",
+								children: [
+									"Acesso imediato à plataforma de estudos",
+									"Mentoria com cirurgiões renomados",
+									"100 horas de simulador inclusas"
+								].map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+									"data-uid": "src/pages/Index.tsx:117:17",
+									"data-prohibitions": "[editContent]",
+									className: "flex items-center gap-4",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+										"data-uid": "src/pages/Index.tsx:118:19",
 										"data-prohibitions": "[]",
-										htmlFor: "name",
-										children: "Nome Completo"
-									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Input, {
-										"data-uid": "src/pages/Index.tsx:126:17",
+										className: "bg-secondary/20 rounded-full p-1",
+										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CircleCheck, {
+											"data-uid": "src/pages/Index.tsx:119:21",
+											"data-prohibitions": "[editContent]",
+											className: "text-secondary w-6 h-6 shrink-0"
+										})
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+										"data-uid": "src/pages/Index.tsx:121:19",
 										"data-prohibitions": "[editContent]",
-										id: "name",
-										placeholder: "Dr. Carlos Silva",
-										className: "h-11"
+										className: "text-lg text-slate-200 font-medium",
+										children: item
 									})]
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								}, i))
+							})]
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Card, {
+							"data-uid": "src/pages/Index.tsx:126:11",
+							"data-prohibitions": "[]",
+							className: "bg-white border-0 text-slate-900 shadow-2xl shadow-black/50 animate-slide-up",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardHeader, {
+								"data-uid": "src/pages/Index.tsx:127:13",
+								"data-prohibitions": "[]",
+								className: "pb-4 border-b border-slate-100 mb-4",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardTitle, {
 									"data-uid": "src/pages/Index.tsx:128:15",
 									"data-prohibitions": "[]",
-									className: "grid grid-cols-2 gap-4",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-										"data-uid": "src/pages/Index.tsx:129:17",
-										"data-prohibitions": "[]",
-										className: "space-y-2",
-										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Label, {
-											"data-uid": "src/pages/Index.tsx:130:19",
-											"data-prohibitions": "[]",
-											htmlFor: "crm",
-											children: "CRM"
-										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Input, {
-											"data-uid": "src/pages/Index.tsx:131:19",
-											"data-prohibitions": "[editContent]",
-											id: "crm",
-											placeholder: "123456",
-											className: "h-11"
-										})]
-									}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-										"data-uid": "src/pages/Index.tsx:133:17",
-										"data-prohibitions": "[]",
-										className: "space-y-2",
-										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Label, {
-											"data-uid": "src/pages/Index.tsx:134:19",
-											"data-prohibitions": "[]",
-											htmlFor: "uf",
-											children: "UF"
-										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Input, {
-											"data-uid": "src/pages/Index.tsx:135:19",
-											"data-prohibitions": "[editContent]",
-											id: "uf",
-											placeholder: "SP",
-											className: "h-11"
-										})]
-									})]
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-									"data-uid": "src/pages/Index.tsx:138:15",
-									"data-prohibitions": "[]",
-									className: "space-y-2",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Label, {
-										"data-uid": "src/pages/Index.tsx:139:17",
-										"data-prohibitions": "[]",
-										htmlFor: "email",
-										children: "E-mail Profissional"
-									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Input, {
-										"data-uid": "src/pages/Index.tsx:140:17",
-										"data-prohibitions": "[editContent]",
-										id: "email",
-										type: "email",
-										placeholder: "carlos@hospital.com",
-										className: "h-11"
-									})]
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
-									"data-uid": "src/pages/Index.tsx:142:15",
-									"data-prohibitions": "[]",
-									to: "/dashboard",
-									className: "block pt-4",
-									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button$1, {
-										"data-uid": "src/pages/Index.tsx:143:17",
-										"data-prohibitions": "[]",
-										className: "w-full h-12 text-lg font-medium hover:scale-[1.02] transition-transform",
-										children: "Completar Inscrição (Mock Login)"
-									})
+									className: "text-2xl font-bold text-center text-slate-900",
+									children: "Ficha de Inscrição"
 								})
-							]
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardContent, {
+								"data-uid": "src/pages/Index.tsx:132:13",
+								"data-prohibitions": "[]",
+								className: "space-y-5",
+								children: [
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										"data-uid": "src/pages/Index.tsx:133:15",
+										"data-prohibitions": "[]",
+										className: "space-y-2",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Label, {
+											"data-uid": "src/pages/Index.tsx:134:17",
+											"data-prohibitions": "[]",
+											htmlFor: "name",
+											className: "text-slate-700 font-semibold",
+											children: "Nome Completo"
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Input, {
+											"data-uid": "src/pages/Index.tsx:137:17",
+											"data-prohibitions": "[editContent]",
+											id: "name",
+											placeholder: "Dr. Carlos Silva",
+											className: "h-11 bg-slate-50 border-slate-200 focus:bg-white focus:border-primary focus:ring-primary/20"
+										})]
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										"data-uid": "src/pages/Index.tsx:143:15",
+										"data-prohibitions": "[]",
+										className: "grid grid-cols-2 gap-4",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											"data-uid": "src/pages/Index.tsx:144:17",
+											"data-prohibitions": "[]",
+											className: "space-y-2",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Label, {
+												"data-uid": "src/pages/Index.tsx:145:19",
+												"data-prohibitions": "[]",
+												htmlFor: "crm",
+												className: "text-slate-700 font-semibold",
+												children: "CRM"
+											}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Input, {
+												"data-uid": "src/pages/Index.tsx:148:19",
+												"data-prohibitions": "[editContent]",
+												id: "crm",
+												placeholder: "123456",
+												className: "h-11 bg-slate-50 border-slate-200 focus:bg-white focus:border-primary focus:ring-primary/20"
+											})]
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											"data-uid": "src/pages/Index.tsx:154:17",
+											"data-prohibitions": "[]",
+											className: "space-y-2",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Label, {
+												"data-uid": "src/pages/Index.tsx:155:19",
+												"data-prohibitions": "[]",
+												htmlFor: "uf",
+												className: "text-slate-700 font-semibold",
+												children: "UF"
+											}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Input, {
+												"data-uid": "src/pages/Index.tsx:158:19",
+												"data-prohibitions": "[editContent]",
+												id: "uf",
+												placeholder: "SP",
+												className: "h-11 bg-slate-50 border-slate-200 focus:bg-white focus:border-primary focus:ring-primary/20"
+											})]
+										})]
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										"data-uid": "src/pages/Index.tsx:165:15",
+										"data-prohibitions": "[]",
+										className: "space-y-2",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Label, {
+											"data-uid": "src/pages/Index.tsx:166:17",
+											"data-prohibitions": "[]",
+											htmlFor: "email",
+											className: "text-slate-700 font-semibold",
+											children: "E-mail Profissional"
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Input, {
+											"data-uid": "src/pages/Index.tsx:169:17",
+											"data-prohibitions": "[editContent]",
+											id: "email",
+											type: "email",
+											placeholder: "carlos@hospital.com",
+											className: "h-11 bg-slate-50 border-slate-200 focus:bg-white focus:border-primary focus:ring-primary/20"
+										})]
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
+										"data-uid": "src/pages/Index.tsx:176:15",
+										"data-prohibitions": "[]",
+										to: "/dashboard",
+										className: "block pt-2",
+										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button$1, {
+											"data-uid": "src/pages/Index.tsx:177:17",
+											"data-prohibitions": "[]",
+											className: "w-full h-12 text-lg font-bold hover:scale-[1.02] transition-all bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/25",
+											children: "Completar Inscrição"
+										})
+									})
+								]
+							})]
 						})]
-					})]
-				})]
+					})
+				]
 			})
 		]
 	});
@@ -39009,4 +39026,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrowserRouter, {
 }));
 //#endregion
 
-//# sourceMappingURL=index-DGIMDtUm.js.map
+//# sourceMappingURL=index-BucuKIQo.js.map

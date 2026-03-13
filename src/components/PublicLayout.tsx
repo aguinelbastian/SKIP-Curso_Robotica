@@ -1,14 +1,17 @@
 import { Link, Outlet } from 'react-router-dom'
+import { HeartPulse } from 'lucide-react'
 
 export default function PublicLayout() {
   return (
     <div className="min-h-screen flex flex-col font-sans">
       <header className="h-16 flex items-center px-4 md:px-8 border-b bg-white/80 backdrop-blur-md sticky top-0 z-50 transition-all">
-        <div className="font-bold text-primary text-xl flex items-center gap-2">
-          <div className="w-8 h-8 rounded bg-primary text-white flex items-center justify-center text-sm shadow-sm">
-            R
+        <div className="font-bold flex items-center gap-2">
+          <div className="w-8 h-8 rounded-md bg-secondary text-white flex items-center justify-center shadow-sm">
+            <HeartPulse className="w-5 h-5" />
           </div>
-          RoboSurge Pro
+          <span className="text-primary text-xl">SOS Cárdio</span>
+          <span className="text-slate-300 font-light mx-1">|</span>
+          <span className="text-slate-600 font-medium">RoboSurge</span>
         </div>
         <div className="ml-auto">
           <Link

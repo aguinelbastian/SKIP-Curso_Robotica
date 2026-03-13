@@ -19284,6 +19284,13 @@ var File = createLucideIcon("file", [["path", {
 	d: "M14 2v5a1 1 0 0 0 1 1h5",
 	key: "wfsgrz"
 }]]);
+var HeartPulse = createLucideIcon("heart-pulse", [["path", {
+	d: "M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5",
+	key: "mvr1a0"
+}], ["path", {
+	d: "M3.22 13H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27",
+	key: "auskq0"
+}]]);
 var House = createLucideIcon("house", [["path", {
 	d: "M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8",
 	key: "5wwlr5"
@@ -24386,29 +24393,53 @@ function useMainStore() {
 //#region src/components/PublicLayout.tsx
 function PublicLayout() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-		"data-uid": "src/components/PublicLayout.tsx:5:5",
+		"data-uid": "src/components/PublicLayout.tsx:6:5",
 		"data-prohibitions": "[]",
 		className: "min-h-screen flex flex-col font-sans",
 		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("header", {
-			"data-uid": "src/components/PublicLayout.tsx:6:7",
+			"data-uid": "src/components/PublicLayout.tsx:7:7",
 			"data-prohibitions": "[]",
 			className: "h-16 flex items-center px-4 md:px-8 border-b bg-white/80 backdrop-blur-md sticky top-0 z-50 transition-all",
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				"data-uid": "src/components/PublicLayout.tsx:7:9",
+				"data-uid": "src/components/PublicLayout.tsx:8:9",
 				"data-prohibitions": "[]",
-				className: "font-bold text-primary text-xl flex items-center gap-2",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-					"data-uid": "src/components/PublicLayout.tsx:8:11",
-					"data-prohibitions": "[]",
-					className: "w-8 h-8 rounded bg-primary text-white flex items-center justify-center text-sm shadow-sm",
-					children: "R"
-				}), "RoboSurge Pro"]
+				className: "font-bold flex items-center gap-2",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						"data-uid": "src/components/PublicLayout.tsx:9:11",
+						"data-prohibitions": "[]",
+						className: "w-8 h-8 rounded-md bg-secondary text-white flex items-center justify-center shadow-sm",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(HeartPulse, {
+							"data-uid": "src/components/PublicLayout.tsx:10:13",
+							"data-prohibitions": "[editContent]",
+							className: "w-5 h-5"
+						})
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+						"data-uid": "src/components/PublicLayout.tsx:12:11",
+						"data-prohibitions": "[]",
+						className: "text-primary text-xl",
+						children: "SOS Cárdio"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+						"data-uid": "src/components/PublicLayout.tsx:13:11",
+						"data-prohibitions": "[]",
+						className: "text-slate-300 font-light mx-1",
+						children: "|"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+						"data-uid": "src/components/PublicLayout.tsx:14:11",
+						"data-prohibitions": "[]",
+						className: "text-slate-600 font-medium",
+						children: "RoboSurge"
+					})
+				]
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-				"data-uid": "src/components/PublicLayout.tsx:13:9",
+				"data-uid": "src/components/PublicLayout.tsx:16:9",
 				"data-prohibitions": "[]",
 				className: "ml-auto",
 				children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
-					"data-uid": "src/components/PublicLayout.tsx:14:11",
+					"data-uid": "src/components/PublicLayout.tsx:17:11",
 					"data-prohibitions": "[]",
 					to: "/dashboard",
 					className: "text-sm font-medium text-slate-600 hover:text-primary transition-colors py-2 px-4 rounded-md hover:bg-slate-50",
@@ -24416,11 +24447,11 @@ function PublicLayout() {
 				})
 			})]
 		}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("main", {
-			"data-uid": "src/components/PublicLayout.tsx:22:7",
+			"data-uid": "src/components/PublicLayout.tsx:25:7",
 			"data-prohibitions": "[]",
 			className: "flex-1 bg-white",
 			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Outlet, {
-				"data-uid": "src/components/PublicLayout.tsx:23:9",
+				"data-uid": "src/components/PublicLayout.tsx:26:9",
 				"data-prohibitions": "[editContent]"
 			})
 		})]
@@ -26559,44 +26590,48 @@ var items = [
 function AppSidebar() {
 	const location = useLocation();
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sidebar, {
-		"data-uid": "src/components/AppSidebar.tsx:34:5",
+		"data-uid": "src/components/AppSidebar.tsx:35:5",
 		"data-prohibitions": "[editContent]",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(SidebarContent, {
-			"data-uid": "src/components/AppSidebar.tsx:35:7",
+			"data-uid": "src/components/AppSidebar.tsx:36:7",
 			"data-prohibitions": "[editContent]",
 			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(SidebarGroup, {
-				"data-uid": "src/components/AppSidebar.tsx:36:9",
+				"data-uid": "src/components/AppSidebar.tsx:37:9",
 				"data-prohibitions": "[editContent]",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(SidebarGroupLabel, {
-					"data-uid": "src/components/AppSidebar.tsx:37:11",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(SidebarGroupLabel, {
+					"data-uid": "src/components/AppSidebar.tsx:38:11",
 					"data-prohibitions": "[]",
-					className: "text-primary font-bold text-sm tracking-wider uppercase mb-2 mt-4 px-4",
-					children: "RoboSurge Pro"
+					className: "flex items-center gap-2 text-primary font-bold text-sm tracking-wider uppercase mb-2 mt-4 px-4",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(HeartPulse, {
+						"data-uid": "src/components/AppSidebar.tsx:39:13",
+						"data-prohibitions": "[editContent]",
+						className: "w-4 h-4 text-secondary"
+					}), "SOS Cárdio Pro"]
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(SidebarGroupContent, {
-					"data-uid": "src/components/AppSidebar.tsx:40:11",
+					"data-uid": "src/components/AppSidebar.tsx:42:11",
 					"data-prohibitions": "[editContent]",
 					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(SidebarMenu, {
-						"data-uid": "src/components/AppSidebar.tsx:41:13",
+						"data-uid": "src/components/AppSidebar.tsx:43:13",
 						"data-prohibitions": "[editContent]",
 						children: items.map((item) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(SidebarMenuItem, {
-							"data-uid": "src/components/AppSidebar.tsx:43:17",
+							"data-uid": "src/components/AppSidebar.tsx:45:17",
 							"data-prohibitions": "[editContent]",
 							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(SidebarMenuButton, {
-								"data-uid": "src/components/AppSidebar.tsx:44:19",
+								"data-uid": "src/components/AppSidebar.tsx:46:19",
 								"data-prohibitions": "[editContent]",
 								asChild: true,
 								isActive: location.pathname === item.url,
 								className: "data-[active=true]:bg-primary/10 data-[active=true]:text-primary data-[active=true]:font-semibold transition-all duration-200",
 								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
-									"data-uid": "src/components/AppSidebar.tsx:49:21",
+									"data-uid": "src/components/AppSidebar.tsx:51:21",
 									"data-prohibitions": "[editContent]",
 									to: item.url,
 									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(item.icon, {
-										"data-uid": "src/components/AppSidebar.tsx:50:23",
+										"data-uid": "src/components/AppSidebar.tsx:52:23",
 										"data-prohibitions": "[editContent]",
 										className: "w-5 h-5 mr-2"
 									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-										"data-uid": "src/components/AppSidebar.tsx:51:23",
+										"data-uid": "src/components/AppSidebar.tsx:53:23",
 										"data-prohibitions": "[editContent]",
 										children: item.title
 									})]
@@ -28170,7 +28205,7 @@ function Index() {
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
 				"data-uid": "src/pages/Index.tsx:12:7",
 				"data-prohibitions": "[]",
-				className: "relative overflow-hidden bg-blue-50/50 py-20 lg:py-32",
+				className: "relative overflow-hidden bg-slate-50 py-20 lg:py-32",
 				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					"data-uid": "src/pages/Index.tsx:13:9",
 					"data-prohibitions": "[]",
@@ -28183,7 +28218,7 @@ function Index() {
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 								"data-uid": "src/pages/Index.tsx:15:13",
 								"data-prohibitions": "[]",
-								className: "inline-flex items-center rounded-full border border-primary/20 px-3 py-1 text-xs font-semibold bg-primary/10 text-primary mb-4 shadow-sm",
+								className: "inline-flex items-center rounded-full border border-secondary/20 px-3 py-1 text-xs font-semibold bg-secondary/10 text-secondary mb-4 shadow-sm",
 								children: "Vagas Abertas - Turma 2026"
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h1", {
@@ -28201,25 +28236,35 @@ function Index() {
 									" começa aqui."
 								]
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
 								"data-uid": "src/pages/Index.tsx:21:13",
 								"data-prohibitions": "[]",
 								className: "text-lg text-slate-700 max-w-lg leading-relaxed",
-								children: "O programa educacional mais completo para cirurgiões. Teoria avançada, simuladores de última geração e mentoria com especialistas globais."
+								children: [
+									"O programa educacional mais completo do",
+									" ",
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+										"data-uid": "src/pages/Index.tsx:23:15",
+										"data-prohibitions": "[]",
+										className: "font-semibold text-slate-900",
+										children: "Hospital SOS Cárdio"
+									}),
+									". Teoria avançada, simuladores de última geração e mentoria com especialistas globais."
+								]
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								"data-uid": "src/pages/Index.tsx:25:13",
+								"data-uid": "src/pages/Index.tsx:26:13",
 								"data-prohibitions": "[]",
 								className: "flex flex-col sm:flex-row gap-4 pt-4",
 								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button$1, {
-									"data-uid": "src/pages/Index.tsx:26:15",
+									"data-uid": "src/pages/Index.tsx:27:15",
 									"data-prohibitions": "[]",
 									size: "lg",
 									className: "h-12 px-8 text-base shadow-lg hover:shadow-xl hover:scale-105 transition-all bg-primary text-white",
 									onClick: () => document.getElementById("enroll")?.scrollIntoView({ behavior: "smooth" }),
 									children: "Inscreva-se Agora"
 								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button$1, {
-									"data-uid": "src/pages/Index.tsx:35:15",
+									"data-uid": "src/pages/Index.tsx:36:15",
 									"data-prohibitions": "[]",
 									size: "lg",
 									variant: "outline",
@@ -28229,15 +28274,15 @@ function Index() {
 							})
 						]
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						"data-uid": "src/pages/Index.tsx:44:11",
+						"data-uid": "src/pages/Index.tsx:45:11",
 						"data-prohibitions": "[]",
 						className: "relative animate-fade-in",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-							"data-uid": "src/pages/Index.tsx:45:13",
-							"data-prohibitions": "[editContent]",
-							className: "absolute inset-0 bg-gradient-to-tr from-primary/30 to-transparent rounded-2xl transform rotate-3 scale-105"
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 							"data-uid": "src/pages/Index.tsx:46:13",
+							"data-prohibitions": "[editContent]",
+							className: "absolute inset-0 bg-gradient-to-tr from-secondary/20 to-primary/20 rounded-2xl transform rotate-3 scale-105"
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+							"data-uid": "src/pages/Index.tsx:47:13",
 							"data-prohibitions": "[editContent]",
 							src: "https://img.usecurling.com/p/800/600?q=robotic%20surgery&color=blue&dpr=2",
 							alt: "Cirurgia Robótica",
@@ -28247,30 +28292,30 @@ function Index() {
 				})
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
-				"data-uid": "src/pages/Index.tsx:56:7",
+				"data-uid": "src/pages/Index.tsx:57:7",
 				"data-prohibitions": "[editContent]",
 				className: "py-20 bg-white",
 				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					"data-uid": "src/pages/Index.tsx:57:9",
+					"data-uid": "src/pages/Index.tsx:58:9",
 					"data-prohibitions": "[editContent]",
 					className: "container mx-auto px-4",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						"data-uid": "src/pages/Index.tsx:58:11",
+						"data-uid": "src/pages/Index.tsx:59:11",
 						"data-prohibitions": "[]",
 						className: "text-center max-w-2xl mx-auto mb-16 animate-slide-up",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-							"data-uid": "src/pages/Index.tsx:59:13",
+							"data-uid": "src/pages/Index.tsx:60:13",
 							"data-prohibitions": "[]",
 							className: "text-3xl font-bold text-slate-900 mb-4",
 							children: "Por que escolher o RoboSurge?"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-							"data-uid": "src/pages/Index.tsx:62:13",
+							"data-uid": "src/pages/Index.tsx:63:13",
 							"data-prohibitions": "[]",
 							className: "text-slate-700 text-lg",
-							children: "Nossa plataforma oferece uma imersão completa, unindo teoria on-demand com prática intensiva em simuladores físicos."
+							children: "Nossa plataforma oferece uma imersão completa, unindo teoria on-demand com prática intensiva em simuladores físicos integrados ao ecossistema SOS Cárdio."
 						})]
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-						"data-uid": "src/pages/Index.tsx:67:11",
+						"data-uid": "src/pages/Index.tsx:68:11",
 						"data-prohibitions": "[editContent]",
 						className: "grid md:grid-cols-3 gap-8",
 						children: [
@@ -28290,32 +28335,32 @@ function Index() {
 								desc: "Receba reconhecimento com validade internacional ao concluir todas as etapas do programa."
 							}
 						].map((f, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Card, {
-							"data-uid": "src/pages/Index.tsx:85:15",
+							"data-uid": "src/pages/Index.tsx:86:15",
 							"data-prohibitions": "[editContent]",
 							className: "border border-slate-100 shadow-md hover:shadow-xl hover:border-primary/20 transition-all duration-300 bg-white group",
 							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardContent, {
-								"data-uid": "src/pages/Index.tsx:89:17",
+								"data-uid": "src/pages/Index.tsx:90:17",
 								"data-prohibitions": "[editContent]",
 								className: "p-8 text-center flex flex-col items-center",
 								children: [
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-										"data-uid": "src/pages/Index.tsx:90:19",
+										"data-uid": "src/pages/Index.tsx:91:19",
 										"data-prohibitions": "[]",
 										className: "w-16 h-16 rounded-2xl bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-primary group-hover:text-white transition-all duration-300",
 										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(f.icon, {
-											"data-uid": "src/pages/Index.tsx:91:21",
+											"data-uid": "src/pages/Index.tsx:92:21",
 											"data-prohibitions": "[editContent]",
 											className: "w-8 h-8"
 										})
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-										"data-uid": "src/pages/Index.tsx:93:19",
+										"data-uid": "src/pages/Index.tsx:94:19",
 										"data-prohibitions": "[editContent]",
 										className: "text-xl font-bold text-slate-900 mb-3",
 										children: f.title
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-										"data-uid": "src/pages/Index.tsx:94:19",
+										"data-uid": "src/pages/Index.tsx:95:19",
 										"data-prohibitions": "[editContent]",
 										className: "text-slate-700 leading-relaxed",
 										children: f.desc
@@ -28327,35 +28372,35 @@ function Index() {
 				})
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
-				"data-uid": "src/pages/Index.tsx:103:7",
+				"data-uid": "src/pages/Index.tsx:104:7",
 				"data-prohibitions": "[editContent]",
 				id: "enroll",
-				className: "py-20 bg-slate-900 text-white relative overflow-hidden",
+				className: "py-20 bg-primary text-white relative overflow-hidden",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-						"data-uid": "src/pages/Index.tsx:104:9",
-						"data-prohibitions": "[editContent]",
-						className: "absolute inset-0 opacity-20 bg-[url('https://img.usecurling.com/p/1200/800?q=medical%20technology&color=black')] bg-cover mix-blend-overlay"
-					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 						"data-uid": "src/pages/Index.tsx:105:9",
 						"data-prohibitions": "[editContent]",
-						className: "absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-900/95 to-primary/90"
+						className: "absolute inset-0 opacity-10 bg-[url('https://img.usecurling.com/p/1200/800?q=medical%20technology&color=black')] bg-cover mix-blend-overlay"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						"data-uid": "src/pages/Index.tsx:106:9",
+						"data-prohibitions": "[editContent]",
+						className: "absolute inset-0 bg-gradient-to-br from-primary via-primary/95 to-secondary/90 mix-blend-multiply"
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						"data-uid": "src/pages/Index.tsx:106:9",
+						"data-uid": "src/pages/Index.tsx:107:9",
 						"data-prohibitions": "[editContent]",
 						className: "container mx-auto px-4 relative z-10 grid lg:grid-cols-2 gap-16 items-center",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							"data-uid": "src/pages/Index.tsx:107:11",
+							"data-uid": "src/pages/Index.tsx:108:11",
 							"data-prohibitions": "[editContent]",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-								"data-uid": "src/pages/Index.tsx:108:13",
+								"data-uid": "src/pages/Index.tsx:109:13",
 								"data-prohibitions": "[]",
 								className: "text-3xl md:text-4xl font-bold mb-6 text-white",
 								children: "Garanta sua vaga na próxima turma"
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
-								"data-uid": "src/pages/Index.tsx:111:13",
+								"data-uid": "src/pages/Index.tsx:112:13",
 								"data-prohibitions": "[editContent]",
 								className: "space-y-5 mb-8",
 								children: [
@@ -28363,57 +28408,57 @@ function Index() {
 									"Mentoria com cirurgiões renomados",
 									"100 horas de simulador inclusas"
 								].map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
-									"data-uid": "src/pages/Index.tsx:117:17",
+									"data-uid": "src/pages/Index.tsx:118:17",
 									"data-prohibitions": "[editContent]",
 									className: "flex items-center gap-4",
 									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-										"data-uid": "src/pages/Index.tsx:118:19",
+										"data-uid": "src/pages/Index.tsx:119:19",
 										"data-prohibitions": "[]",
-										className: "bg-secondary/20 rounded-full p-1",
+										className: "bg-white/20 rounded-full p-1",
 										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CircleCheck, {
-											"data-uid": "src/pages/Index.tsx:119:21",
+											"data-uid": "src/pages/Index.tsx:120:21",
 											"data-prohibitions": "[editContent]",
-											className: "text-secondary w-6 h-6 shrink-0"
+											className: "text-white w-6 h-6 shrink-0"
 										})
 									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-										"data-uid": "src/pages/Index.tsx:121:19",
+										"data-uid": "src/pages/Index.tsx:122:19",
 										"data-prohibitions": "[editContent]",
-										className: "text-lg text-slate-200 font-medium",
+										className: "text-lg text-white/90 font-medium",
 										children: item
 									})]
 								}, i))
 							})]
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Card, {
-							"data-uid": "src/pages/Index.tsx:126:11",
+							"data-uid": "src/pages/Index.tsx:127:11",
 							"data-prohibitions": "[]",
-							className: "bg-white border-0 text-slate-900 shadow-2xl shadow-black/50 animate-slide-up",
+							className: "bg-white border-0 text-slate-900 shadow-2xl shadow-black/20 animate-slide-up",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardHeader, {
-								"data-uid": "src/pages/Index.tsx:127:13",
+								"data-uid": "src/pages/Index.tsx:128:13",
 								"data-prohibitions": "[]",
 								className: "pb-4 border-b border-slate-100 mb-4",
 								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardTitle, {
-									"data-uid": "src/pages/Index.tsx:128:15",
+									"data-uid": "src/pages/Index.tsx:129:15",
 									"data-prohibitions": "[]",
 									className: "text-2xl font-bold text-center text-slate-900",
 									children: "Ficha de Inscrição"
 								})
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardContent, {
-								"data-uid": "src/pages/Index.tsx:132:13",
+								"data-uid": "src/pages/Index.tsx:133:13",
 								"data-prohibitions": "[]",
 								className: "space-y-5",
 								children: [
 									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-										"data-uid": "src/pages/Index.tsx:133:15",
+										"data-uid": "src/pages/Index.tsx:134:15",
 										"data-prohibitions": "[]",
 										className: "space-y-2",
 										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Label, {
-											"data-uid": "src/pages/Index.tsx:134:17",
+											"data-uid": "src/pages/Index.tsx:135:17",
 											"data-prohibitions": "[]",
 											htmlFor: "name",
 											className: "text-slate-700 font-semibold",
 											children: "Nome Completo"
 										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Input, {
-											"data-uid": "src/pages/Index.tsx:137:17",
+											"data-uid": "src/pages/Index.tsx:138:17",
 											"data-prohibitions": "[editContent]",
 											id: "name",
 											placeholder: "Dr. Carlos Silva",
@@ -28421,38 +28466,38 @@ function Index() {
 										})]
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-										"data-uid": "src/pages/Index.tsx:143:15",
+										"data-uid": "src/pages/Index.tsx:144:15",
 										"data-prohibitions": "[]",
 										className: "grid grid-cols-2 gap-4",
 										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-											"data-uid": "src/pages/Index.tsx:144:17",
+											"data-uid": "src/pages/Index.tsx:145:17",
 											"data-prohibitions": "[]",
 											className: "space-y-2",
 											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Label, {
-												"data-uid": "src/pages/Index.tsx:145:19",
+												"data-uid": "src/pages/Index.tsx:146:19",
 												"data-prohibitions": "[]",
 												htmlFor: "crm",
 												className: "text-slate-700 font-semibold",
 												children: "CRM"
 											}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Input, {
-												"data-uid": "src/pages/Index.tsx:148:19",
+												"data-uid": "src/pages/Index.tsx:149:19",
 												"data-prohibitions": "[editContent]",
 												id: "crm",
 												placeholder: "123456",
 												className: "h-11 bg-slate-50 border-slate-200 focus:bg-white focus:border-primary focus:ring-primary/20"
 											})]
 										}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-											"data-uid": "src/pages/Index.tsx:154:17",
+											"data-uid": "src/pages/Index.tsx:155:17",
 											"data-prohibitions": "[]",
 											className: "space-y-2",
 											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Label, {
-												"data-uid": "src/pages/Index.tsx:155:19",
+												"data-uid": "src/pages/Index.tsx:156:19",
 												"data-prohibitions": "[]",
 												htmlFor: "uf",
 												className: "text-slate-700 font-semibold",
 												children: "UF"
 											}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Input, {
-												"data-uid": "src/pages/Index.tsx:158:19",
+												"data-uid": "src/pages/Index.tsx:159:19",
 												"data-prohibitions": "[editContent]",
 												id: "uf",
 												placeholder: "SP",
@@ -28461,17 +28506,17 @@ function Index() {
 										})]
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-										"data-uid": "src/pages/Index.tsx:165:15",
+										"data-uid": "src/pages/Index.tsx:166:15",
 										"data-prohibitions": "[]",
 										className: "space-y-2",
 										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Label, {
-											"data-uid": "src/pages/Index.tsx:166:17",
+											"data-uid": "src/pages/Index.tsx:167:17",
 											"data-prohibitions": "[]",
 											htmlFor: "email",
 											className: "text-slate-700 font-semibold",
 											children: "E-mail Profissional"
 										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Input, {
-											"data-uid": "src/pages/Index.tsx:169:17",
+											"data-uid": "src/pages/Index.tsx:170:17",
 											"data-prohibitions": "[editContent]",
 											id: "email",
 											type: "email",
@@ -28480,14 +28525,14 @@ function Index() {
 										})]
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
-										"data-uid": "src/pages/Index.tsx:176:15",
+										"data-uid": "src/pages/Index.tsx:177:15",
 										"data-prohibitions": "[]",
 										to: "/dashboard",
 										className: "block pt-2",
 										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button$1, {
-											"data-uid": "src/pages/Index.tsx:177:17",
+											"data-uid": "src/pages/Index.tsx:178:17",
 											"data-prohibitions": "[]",
-											className: "w-full h-12 text-lg font-bold hover:scale-[1.02] transition-all bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/25",
+											className: "w-full h-12 text-lg font-bold hover:scale-[1.02] transition-all bg-secondary hover:bg-secondary/90 text-white shadow-lg shadow-secondary/25",
 											children: "Completar Inscrição"
 										})
 									})
@@ -28535,7 +28580,7 @@ function CircularProgress({ value }) {
 				fill: "transparent",
 				strokeDasharray: circumference,
 				strokeDashoffset: offset,
-				className: "text-secondary transition-all duration-1000 ease-out",
+				className: "text-primary transition-all duration-1000 ease-out",
 				strokeLinecap: "round"
 			})]
 		}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
@@ -28580,7 +28625,7 @@ function Dashboard() {
 					"data-uid": "src/pages/Dashboard.tsx:54:9",
 					"data-prohibitions": "[]",
 					asChild: true,
-					className: "hidden md:flex",
+					className: "hidden md:flex bg-primary hover:bg-primary/90",
 					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
 						"data-uid": "src/pages/Dashboard.tsx:55:11",
 						"data-prohibitions": "[]",
@@ -28671,7 +28716,7 @@ function Dashboard() {
 								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CalendarClock, {
 									"data-uid": "src/pages/Dashboard.tsx:86:15",
 									"data-prohibitions": "[editContent]",
-									className: "w-5 h-5 text-secondary"
+									className: "w-5 h-5 text-white"
 								}), "Próxima Sessão no Simulador"]
 							})
 						}),
@@ -28701,7 +28746,7 @@ function Dashboard() {
 										"data-prohibitions": "[]",
 										variant: "secondary",
 										size: "sm",
-										className: "bg-secondary hover:bg-secondary/90 text-white border-none",
+										className: "bg-white text-primary hover:bg-slate-100 border-none",
 										children: "Ver Detalhes"
 									})
 								]
@@ -28718,7 +28763,7 @@ function Dashboard() {
 									"data-prohibitions": "[]",
 									variant: "secondary",
 									asChild: true,
-									className: "bg-white text-primary hover:bg-slate-100",
+									className: "bg-white text-primary hover:bg-slate-100 border-none",
 									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
 										"data-uid": "src/pages/Dashboard.tsx:113:19",
 										"data-prohibitions": "[]",
@@ -28842,7 +28887,7 @@ function Dashboard() {
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 										"data-uid": "src/pages/Dashboard.tsx:167:17",
 										"data-prohibitions": "[editContent]",
-										className: "absolute -left-[21px] top-1.5 w-2.5 h-2.5 rounded-full bg-primary ring-4 ring-white"
+										className: "absolute -left-[21px] top-1.5 w-2.5 h-2.5 rounded-full bg-secondary ring-4 ring-white"
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 										"data-uid": "src/pages/Dashboard.tsx:168:17",
@@ -28871,7 +28916,7 @@ function Dashboard() {
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 										"data-uid": "src/pages/Dashboard.tsx:176:17",
 										"data-prohibitions": "[editContent]",
-										className: "absolute -left-[21px] top-1.5 w-2.5 h-2.5 rounded-full bg-slate-300 ring-4 ring-white"
+										className: "absolute -left-[21px] top-1.5 w-2.5 h-2.5 rounded-full bg-primary ring-4 ring-white"
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 										"data-uid": "src/pages/Dashboard.tsx:177:17",
@@ -29545,7 +29590,7 @@ function Classroom() {
 								"data-prohibitions": "[]",
 								variant: "ghost",
 								size: "icon",
-								className: "w-20 h-20 rounded-full bg-primary/80 hover:bg-primary text-white hover:scale-110 transition-transform",
+								className: "w-20 h-20 rounded-full bg-secondary/90 hover:bg-secondary text-white hover:scale-110 transition-transform",
 								onClick: () => setIsPlaying(true),
 								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CirclePlay, {
 									"data-uid": "src/pages/Classroom.tsx:72:17",
@@ -29561,7 +29606,7 @@ function Classroom() {
 							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 								"data-uid": "src/pages/Classroom.tsx:78:15",
 								"data-prohibitions": "[editContent]",
-								className: "h-full bg-primary w-1/3 animate-pulse"
+								className: "h-full bg-secondary w-1/3 animate-pulse"
 							})
 						})
 					]
@@ -29746,7 +29791,7 @@ function Classroom() {
 											children: isDone ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CircleCheck, {
 												"data-uid": "src/pages/Classroom.tsx:169:31",
 												"data-prohibitions": "[editContent]",
-												className: "w-4 h-4 text-secondary"
+												className: "w-4 h-4 text-emerald-500"
 											}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CirclePlay, {
 												"data-uid": "src/pages/Classroom.tsx:171:31",
 												"data-prohibitions": "[editContent]",
@@ -39026,4 +39071,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrowserRouter, {
 }));
 //#endregion
 
-//# sourceMappingURL=index-BucuKIQo.js.map
+//# sourceMappingURL=index-Cf31Jdoy.js.map

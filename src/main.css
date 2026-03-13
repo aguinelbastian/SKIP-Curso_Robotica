@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-    --background: 210 40% 98%; /* F8FAFC */
+    --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -15,37 +15,37 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    /* Deep Professional Medical Blue */
-    --primary: 217 91% 30%; /* #0747a6 */
+    /* SOS Cárdio Primary Blue */
+    --primary: 213 80% 24%;
     --primary-foreground: 210 40% 98%;
 
-    /* High-tech Cyan/Teal Accent */
-    --secondary: 189 94% 43%; /* #06b6d4 */
-    --secondary-foreground: 222.2 84% 4.9%;
+    /* SOS Cárdio Accent Red */
+    --secondary: 348 83% 45%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 214.3 31.8% 91.4%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 214.3 31.8% 91.4%;
-    --accent-foreground: 222.2 84% 4.9%;
+    --accent: 348 83% 95%;
+    --accent-foreground: 348 83% 45%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 217 91% 30%;
+    --ring: 213 80% 24%;
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
 
     --sidebar-background: 0 0% 100%;
     --sidebar-foreground: 222.2 84% 4.9%;
-    --sidebar-primary: 217 91% 30%;
+    --sidebar-primary: 213 80% 24%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 210 40% 96.1%;
-    --sidebar-accent-foreground: 222.2 84% 4.9%;
+    --sidebar-accent: 214.3 31.8% 96%;
+    --sidebar-accent-foreground: 213 80% 24%;
     --sidebar-border: 214.3 31.8% 91.4%;
-    --sidebar-ring: 217 91% 30%;
+    --sidebar-ring: 213 80% 24%;
   }
 
   body {

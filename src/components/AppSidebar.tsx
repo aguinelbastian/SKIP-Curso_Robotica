@@ -6,6 +6,7 @@ import {
   FileText,
   MessageSquare,
   CheckSquare,
+  HeartPulse,
 } from 'lucide-react'
 import {
   Sidebar,
@@ -34,8 +35,9 @@ export function AppSidebar() {
     <Sidebar>
       <SidebarContent>
         <SidebarGroup>
-          <SidebarGroupLabel className="text-primary font-bold text-sm tracking-wider uppercase mb-2 mt-4 px-4">
-            RoboSurge Pro
+          <SidebarGroupLabel className="flex items-center gap-2 text-primary font-bold text-sm tracking-wider uppercase mb-2 mt-4 px-4">
+            <HeartPulse className="w-4 h-4 text-secondary" />
+            SOS Cárdio Pro
           </SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>

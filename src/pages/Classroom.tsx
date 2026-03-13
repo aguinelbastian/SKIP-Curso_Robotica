@@ -66,7 +66,7 @@ export default function Classroom() {
               <Button
                 variant="ghost"
                 size="icon"
-                className="w-20 h-20 rounded-full bg-primary/80 hover:bg-primary text-white hover:scale-110 transition-transform"
+                className="w-20 h-20 rounded-full bg-secondary/90 hover:bg-secondary text-white hover:scale-110 transition-transform"
                 onClick={() => setIsPlaying(true)}
               >
                 <PlayCircle className="w-12 h-12" />
@@ -75,7 +75,7 @@ export default function Classroom() {
           )}
           {isPlaying && (
             <div className="absolute inset-x-0 bottom-0 h-1 bg-slate-800">
-              <div className="h-full bg-primary w-1/3 animate-pulse" />
+              <div className="h-full bg-secondary w-1/3 animate-pulse" />
             </div>
           )}
         </div>
@@ -166,7 +166,7 @@ export default function Classroom() {
                         >
                           <div className="mt-0.5 shrink-0">
                             {isDone ? (
-                              <CheckCircle2 className="w-4 h-4 text-secondary" />
+                              <CheckCircle2 className="w-4 h-4 text-emerald-500" />
                             ) : (
                               <PlayCircle
                                 className={cn(

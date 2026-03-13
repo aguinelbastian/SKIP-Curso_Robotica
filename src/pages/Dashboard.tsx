@@ -30,7 +30,7 @@ function CircularProgress({ value }: { value: number }) {
           fill="transparent"
           strokeDasharray={circumference}
           strokeDashoffset={offset}
-          className="text-secondary transition-all duration-1000 ease-out"
+          className="text-primary transition-all duration-1000 ease-out"
           strokeLinecap="round"
         />
       </svg>
@@ -51,7 +51,7 @@ export default function Dashboard() {
           <h1 className="text-3xl font-bold text-slate-900 tracking-tight">Olá, Dr. Carlos!</h1>
           <p className="text-slate-500 mt-1">Bem-vindo de volta. Aqui está o seu resumo de hoje.</p>
         </div>
-        <Button asChild className="hidden md:flex">
+        <Button asChild className="hidden md:flex bg-primary hover:bg-primary/90">
           <Link to="/simulador">Agendar Simulador</Link>
         </Button>
       </div>
@@ -83,7 +83,7 @@ export default function Dashboard() {
           <div className="absolute right-0 top-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
           <CardHeader className="pb-2 relative z-10">
             <CardTitle className="text-lg font-semibold flex items-center gap-2 text-white/90">
-              <CalendarClock className="w-5 h-5 text-secondary" />
+              <CalendarClock className="w-5 h-5 text-white" />
               Próxima Sessão no Simulador
             </CardTitle>
           </CardHeader>
@@ -97,7 +97,7 @@ export default function Dashboard() {
                 <Button
                   variant="secondary"
                   size="sm"
-                  className="bg-secondary hover:bg-secondary/90 text-white border-none"
+                  className="bg-white text-primary hover:bg-slate-100 border-none"
                 >
                   Ver Detalhes
                 </Button>
@@ -108,7 +108,7 @@ export default function Dashboard() {
                 <Button
                   variant="secondary"
                   asChild
-                  className="bg-white text-primary hover:bg-slate-100"
+                  className="bg-white text-primary hover:bg-slate-100 border-none"
                 >
                   <Link to="/simulador">Agendar Agora</Link>
                 </Button>
@@ -164,7 +164,7 @@ export default function Dashboard() {
           <CardContent>
             <div className="space-y-4 border-l-2 border-slate-100 ml-3 pl-4">
               <div className="relative">
-                <div className="absolute -left-[21px] top-1.5 w-2.5 h-2.5 rounded-full bg-primary ring-4 ring-white" />
+                <div className="absolute -left-[21px] top-1.5 w-2.5 h-2.5 rounded-full bg-secondary ring-4 ring-white" />
                 <p className="text-sm font-semibold text-slate-900">Manutenção do Simulador</p>
                 <p className="text-xs text-slate-500 mt-1">10 de Out, 09:00</p>
                 <p className="text-sm text-slate-600 mt-2">
@@ -173,7 +173,7 @@ export default function Dashboard() {
                 </p>
               </div>
               <div className="relative">
-                <div className="absolute -left-[21px] top-1.5 w-2.5 h-2.5 rounded-full bg-slate-300 ring-4 ring-white" />
+                <div className="absolute -left-[21px] top-1.5 w-2.5 h-2.5 rounded-full bg-primary ring-4 ring-white" />
                 <p className="text-sm font-semibold text-slate-900">Novo Material Disponível</p>
                 <p className="text-xs text-slate-500 mt-1">08 de Out, 15:30</p>
                 <p className="text-sm text-slate-600 mt-2">
